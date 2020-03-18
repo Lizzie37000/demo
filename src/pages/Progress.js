@@ -110,12 +110,6 @@ function App(props) {
         console.log("error-------", res);
       }
     });
-
-    // const dataSource = {
-    //   buttons: [-25, -10, 10, 25],
-    //   bars: [25, 50, 75],
-    //   limit: 230
-    // };
   }, [dispatch]);
 
   const handleChangeTarget = e => {
@@ -140,7 +134,6 @@ function App(props) {
       return { ...pre, [targetBar]: (result * 100) / limit };
     });
   }
-  console.log("progressBars", progressBars);
 
   return (
     <div className={classes.container}>
