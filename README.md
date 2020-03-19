@@ -9,6 +9,10 @@ npm install
 npm start
 (excute 'npm install' and 'npm start' in 'package.json' location)
 
+# how to run test
+npm test
+(excute 'npm test' in 'package.json' location)
+
 # structure
 ├── node_modules
 ├── public
