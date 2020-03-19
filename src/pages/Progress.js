@@ -82,7 +82,7 @@ const useStyles = makeStyles(theme => {
   };
 });
 
-function App(props) {
+function Progress(props) {
   const classes = useStyles();
   const { dispatch } = props;
   const [targetBar, setTargetBar] = useState("progress1");
@@ -190,4 +190,4 @@ function App(props) {
     </div>
   );
 }
-export default connect(({ progress }) => ({ progress }))(App);
+export default connect(({ progress }) => ({ progress }))(Progress);
