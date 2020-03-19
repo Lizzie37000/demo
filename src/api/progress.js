@@ -4,7 +4,7 @@ export async function initDataApi() {
     data: {
       buttons: [-25, -10, 10, 25],
       bars: [25, 50, 75],
-      limit: 230
+      limit: 100
     },
     message: "Success"
   };
